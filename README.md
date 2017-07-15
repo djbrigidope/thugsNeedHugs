@@ -62,3 +62,13 @@ dont worry, nothing nefarious, just thugnificent shit like graffiti and kermit s
 in anycase till i figure this out. maybe ill work on hitting it fron the front. like the front end. like css ya big dummy.
 
 ### gitpush
+3:30 -4:44 pm
+
+
+5:22pm
+finally worked my life out:
+
+```
+thungsnhugs=# insert into uploadersoakland (id, online_handle, first_name, last_name, hood, city, country) VALUES(1, 'brigidope', 'thug lord', 'smoke runner', 'scoakland', 'oakland', 'california');
+INSERT 0 1thungsnhugs=# select * from uploadersoakland; id | online_handle | first_name |  last_name   |   hood    |  city   |  country   ----+---------------+------------+--------------+-----------+---------+------------  1 | brigidope     | thug lord  | smoke runner | scoakland | oakland | california(1 row)thungsnhugs=#
+```
