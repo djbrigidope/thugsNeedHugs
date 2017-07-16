@@ -84,4 +84,28 @@ thungsnhugs=#
 
 im using iterm2. been having trouble with postgres. when i try to log in with psql it says the database named after my admin username isnt there. but when i open the postgres app it shows the db there. then i click on it and a terminal opens up with psql opened to the database that psql in iterm2 said wasnt there.
 
-so i need to know how to close that instance of psql so i can open it in iterm 2. will figure out irl monday. or saturday. 
+so i need to know how to close that instance of psql so i can open it in iterm 2. will figure out irl monday. or saturday.
+
+
+aight. so i have a db? i can write to it. and pull a query off it.
+
+```
+thungsnhugs=# select * from uploadersoakland;
+ id | online_handle |  first_name   |  last_name   |    hood    |  city   |  country
+----+---------------+---------------+--------------+------------+---------+------------
+  1 | brigidope     | thug lord     | smoke runner | scoakland  | oakland | california
+  2 | skizzo        | lil sawed off | smoke runner | jingletown | oakland | california
+(2 rows)
+
+thungsnhugs=#
+```
+it's gucci right?
+
+now i need a function that creates a
+new user and adds it to the database
+
+err wait. i need a function that inserts a
+new row into values.
+
+
+**lol git history stuff
