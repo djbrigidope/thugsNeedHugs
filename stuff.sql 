@@ -13,3 +13,21 @@ VALUES(3, 'yung thottie', 'vanessa', 'dont get 2 pieced', 'the crest', 'vallejo'
 
 insert into uploadersoakland (id, online_handle, first_name, last_name, hood, city, country)
 VALUES(4, 'brigidope', 'thug lord', 'smoke runner', 'scoakland', 'oakland', 'california');
+
+
+aight. so i have a db? i can write to it. and pull a query off it.
+
+```
+thungsnhugs=# select * from uploadersoakland;
+ id | online_handle |  first_name   |  last_name   |    hood    |  city   |  country
+----+---------------+---------------+--------------+------------+---------+------------
+  1 | brigidope     | thug lord     | smoke runner | scoakland  | oakland | california
+  2 | skizzo        | lil sawed off | smoke runner | jingletown | oakland | california
+(2 rows)
+
+thungsnhugs=#
+```
+it's gucci right?
+
+now i need a function that creates a
+new user and adds it to the database
