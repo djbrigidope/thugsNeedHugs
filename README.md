@@ -109,3 +109,55 @@ new row into values.
 
 
 **lol git history stuff
+
+
+oh shit i just fixed my psql shit tho.
+
+```
+# djbrigidope hiafrn ~/desktop/devops/contaxts [15:20:33]
+$ psql
+psql: FATAL:  database "djbrigidope" doe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s not exist
+
+# djbrigidope hiafrn ~/desktop/devops/contaxts [15:20:38] C:2
+$ psql \postgres
+psql (9.6.2)
+Type "help" for help.
+
+postgres=# create database djbrigidope with owner djbrigidope
+postgres-#
+postgres-# ;
+CREATE DATABASE
+postgres=# \q
+
+# djbrigidope hiafrn ~/desktop/devops/contaxts [15:21:23]
+$ psql
+psql (9.6.2)
+Type "help" for help.
+
+djbrigidope=# \l
+```
+
+after a walk outside w ze i was telling him my problem and kinda thought of what was missing in my previous google searches.
