@@ -161,3 +161,5 @@ djbrigidope=# \l
 ```
 
 after a walk outside w ze i was telling him my problem and kinda thought of what was missing in my previous google searches.
+
+now if i could just learn to write proper sql syntax. 
