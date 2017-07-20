@@ -1,0 +1,44 @@
+
+h1 {
+	font-size: 3em;
+	font-family: 'Poppins', helvetica, arial sans-serif;
+	font color: white;
+}
+
+h2 {
+	font-size: 2em;
+	font-family: 'Poppins', helvetica, arial sans-serif;
+	font color: white;
+}
+
+p {
+	font-size: .75em;
+	font color: green;
+	font-family: helvetica, arial sans-serif;
+}
+
+body {
+	padding: 2em;
+	max-width: 950px;
+}
+
+.container {
+	display: grid;
+}
+
+.container2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item {
+	align-self: stretch;
+	padding: .4em
+}
+
+.itemPix {
+	align-self: center;
+	padding: .4em;
+	height: auto;
+	width: 23%;
+}

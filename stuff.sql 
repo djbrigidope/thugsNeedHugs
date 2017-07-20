@@ -13,3 +13,12 @@ VALUES(3, 'yung thottie', 'vanessa', 'dont get 2 pieced', 'the crest', 'vallejo'
 
 insert into uploadersoakland (id, online_handle, first_name, last_name, hood, city, country)
 VALUES(4, 'brigidope', 'thug lord', 'smoke runner', 'scoakland', 'oakland', 'california');
+
+
+
+font-family: 'Roboto Slab', serif;
+font-family: 'Poppins', helvetica, arial sans-serif;
+font-family: 'Luckiest Guy', cursive;
+
+
+<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Poppins|Roboto+Slab" rel="stylesheet">
