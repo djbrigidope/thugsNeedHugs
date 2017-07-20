@@ -1,44 +1,95 @@
-
 h1 {
-	font-size: 3em;
-	font-family: 'Poppins', helvetica, arial sans-serif;
-	font color: white;
+  font-size: 3em;
+  font-family: 'Poppins', helvetica, arial, sans-serif;
+  font color: white;
 }
 
 h2 {
-	font-size: 2em;
-	font-family: 'Poppins', helvetica, arial sans-serif;
-	font color: white;
+  font-size: 2em;
+  font-family: 'Poppins', helvetica, arial, sans-serif;
+  font color: white;
 }
 
 p {
-	font-size: .75em;
-	font color: green;
-	font-family: helvetica, arial sans-serif;
+  font-size: .75em;
+  font color: green;
+  font-family: helvetica, arial, sans-serif;
 }
 
 body {
-	padding: 2em;
-	max-width: 950px;
+  padding: 3em;
+  max-width: 950px;
 }
 
 .container {
-	display: grid;
+  display: grid;
 }
 
 .container2 {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .item {
-	align-self: stretch;
-	padding: .4em
+  align-self: center;
+  padding: .4em
 }
 
 .itemPix {
-	align-self: center;
-	padding: .4em;
-	height: auto;
-	width: 23%;
+align-content: space-between;
+  padding: .4em;
+  height: auto;
+  width: 23%;
+}
+
+
+/*.itemFlex {
+	align-self: stretch;
+	padding: .4em
+}*/
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 950px;
+}
+
+.itemPixFlex {
+  align-self: center;
+	flex: 2 0 0 0;
+  padding: .4em;
+  height: auto;
+  width: 15%;
+}
+
+.flexNavContainer {
+  display: flex;
+  flex-shrink: 3;
+  max-width: 950px;
+}
+
+.itemPixFlexNav {
+  flex: 1 1 1 1;
+  padding: .4em;
+  background-color: red;
+  height: 3.5em;
+  width: 4.5em;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.3);
+}
+
+.footerContainer {
+	display:inline-grid;
+}
+
+.footer {
+  /*grid-row-start: 2;
+  grid-row-end: 3;*/
+	background-color: red;
 }
